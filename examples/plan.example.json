@@ -1,0 +1,21 @@
+{
+  "name": "Example 401(k) plan",
+  "plan_year_start_month": 1,
+  "subject_to_414a": true,
+  "auto_enroll": {
+    "initial_pct": 3,
+    "step_pct": 1,
+    "max_pct": 10,
+    "escalation_basis": "plan_year",
+    "enroll_within_days": 30
+  },
+  "eligibility": {
+    "min_age": 21,
+    "service_days": 0,
+    "entry": "immediate"
+  },
+  "small_plan": false,
+  "deposit_alert_business_days": 7,
+  "amount_tolerance": 0.05,
+  "pct_tolerance": 0.1
+}

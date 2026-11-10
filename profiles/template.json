@@ -1,0 +1,23 @@
+{
+  "description": "Copy this file into RSI_DATA_DIR, replace each right-hand value with the exact column header in your system's export, and pass it as census_mapping / contributions_mapping.",
+  "census": {
+    "employee_id": "YOUR EMPLOYEE ID HEADER",
+    "hire_date": "YOUR HIRE DATE HEADER",
+    "birth_date": "YOUR BIRTH DATE HEADER",
+    "eligibility_date": "YOUR PLAN ELIGIBILITY / ENTRY DATE HEADER",
+    "termination_date": "YOUR TERMINATION DATE HEADER",
+    "prior_year_fica_wages": "YOUR PRIOR-YEAR FICA (SOCIAL SECURITY) WAGES HEADER",
+    "excluded": "YOUR PLAN-EXCLUDED FLAG HEADER",
+    "auto_enroll_start_date": "YOUR AUTO-ENROLLMENT START DATE HEADER"
+  },
+  "contributions": {
+    "employee_id": "YOUR EMPLOYEE ID HEADER",
+    "pay_date": "YOUR CHECK / PAY DATE HEADER",
+    "plan_comp": "YOUR 401(K) ELIGIBLE WAGES HEADER",
+    "pretax": "YOUR PRE-TAX 401(K) DEDUCTION HEADER",
+    "roth": "YOUR ROTH 401(K) DEDUCTION HEADER",
+    "election_source": "YOUR ELECTION TYPE HEADER (default / affirmative / opt_out)",
+    "elected_pct": "YOUR ELECTED PERCENTAGE HEADER",
+    "deposit_date": "YOUR DEPOSIT / FUNDING DATE HEADER"
+  }
+}

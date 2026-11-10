@@ -1,0 +1,20 @@
+{
+  "name": "retirement-savings-integrity-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that checks 401(k)/403(b) payroll data for SECURE 2.0 auto-enrollment, IRS limit, Roth catch-up and DOL deposit-timing errors, locally",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": { "retirement-savings-integrity-mcp": "src/index.mjs" },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test \"test/**/*.test.mjs\""
+  },
+  "keywords": ["mcp", "401k", "403b", "secure-2.0", "retirement", "payroll", "erisa", "benefits", "workday", "hr-tech"],
+  "author": "Humza Arshad",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.22.0"
+  }
+}

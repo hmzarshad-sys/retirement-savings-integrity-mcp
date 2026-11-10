@@ -1,0 +1,23 @@
+{
+  "description": "Example only: column headers as they might appear in a Workday custom report built for this check. Workday report headers are whatever the report author names them, so rename these to match your report exactly. Deposit dates usually come from treasury or recordkeeper funding reports, joined to the payroll export.",
+  "census": {
+    "employee_id": "Employee ID",
+    "hire_date": "Hire Date",
+    "birth_date": "Date of Birth",
+    "eligibility_date": "Retirement Plan Eligibility Date",
+    "termination_date": "Termination Date",
+    "prior_year_fica_wages": "Prior Year Social Security Wages",
+    "excluded": "Retirement Plan Excluded",
+    "auto_enroll_start_date": "Auto Enrollment Start Date"
+  },
+  "contributions": {
+    "employee_id": "Employee ID",
+    "pay_date": "Check Date",
+    "plan_comp": "Retirement Eligible Earnings",
+    "pretax": "401k Pre-Tax Deduction",
+    "roth": "401k Roth Deduction",
+    "election_source": "Election Type",
+    "elected_pct": "Election Percentage",
+    "deposit_date": "Funding Date"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Store
+# Never commit real exports (synthetic examples live in examples/)
+*.csv
+!examples/*.csv
